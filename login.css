@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.login-form{
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 1%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #14a9ae;
+    border-radius: 5px;
+}
+
+button.login-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #1180f5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.facebook,
+button.google,
+button.github {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.forgot-password {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.signup-form{
+    background-color: #fff;
+    text-align: center;
+    padding: 2%;
+    border-radius: 2%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #f0f0f0;
+}
